@@ -17,6 +17,7 @@ export function VerPersonagem({navigation}) {
                     <Image  style={estilo.imagemE} source={require('./../../imagens/logo.jpg') } resizeMode="contain"/>
                     <TextInput placeholder='nome...' onChangeText={setNome} style={estilo.input}/>
                     <Button style={estilo.botao} title='Ver Personagem' onPress={carregaPersonagem} />
+                    <Text>Dupla: Daniel Mendes da Silva e Jordel Vitor Barbosa Silva - Turma: 513</Text>
                 </View>
             </View>
     )
